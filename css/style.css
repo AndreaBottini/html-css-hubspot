@@ -6,4 +6,45 @@
 
 body {
   font-family: 'Alata', sans-serif;
+  background-color: lightblue;
+}
+
+.page-header {
+  height: 700px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: lightgreen;
+}
+
+.header-nav-top {
+  height: 80px;
+  background-color: grey;
+  width: 100%;
+}
+
+.header-nav-bottom {
+  height: 80px;
+  background-color: blue;
+  width: 100%;
+}
+
+.end-header-banner {
+  height: 80px;
+  background-color: ORANGE;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-nav-left {
+  float: left;
+}
+
+.header-nav-right {
+  float: right;
+}
+
+.header-nav::after {
+  content: '';
+  display: table;
+  clear: both;
 }
