@@ -11,15 +11,23 @@ body {
 
 .page-header {
   height: 700px;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0 auto;
   background-color: lightgreen;
 }
 
 .header-nav-top {
   height: 80px;
-  background-color: grey;
-  width: 100%;
+  background-color: lightgrey;
+  /*width: 100%;*/
+  margin: 0;
+}
+
+.header-nav-left a {
+  text-decoration: none;
+  margin-left: 80px;
+  line-height: 80px;
+  vertical-align: middle;
 }
 
 .header-nav-bottom {
