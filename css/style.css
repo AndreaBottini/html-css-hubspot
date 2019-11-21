@@ -48,3 +48,17 @@ body {
   display: table;
   clear: both;
 }
+
+.page-main {
+  height: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+.page-footer {
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: green;
+}
