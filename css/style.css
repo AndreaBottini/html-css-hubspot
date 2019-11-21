@@ -56,6 +56,60 @@ body {
   background-color: brown;
 }
 
+.blockone {
+  width: 80%;
+  background-color: grey;
+  border: 2px solid black;
+  padding: 30px;
+  margin: auto;
+}
+
+.blocktwo {
+  width: 80%;
+  background-color: grey;
+  border: 2px solid black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.blockfloat {
+  float: left;
+}
+
+.blockfloat::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.blockleft {
+  width: 20%;
+  background-color: green;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 10%;
+  margin-top: 40px;
+}
+
+.blockcenter {
+  width: 20%;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.blockright {
+  width: 20%;
+  background-color: orange;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 10%;
+  margin-top: 40px;
+}
+
 .page-footer {
   height: 400px;
   width: 90%;
