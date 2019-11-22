@@ -173,11 +173,28 @@ margin-top: 25px;
 }
 
 .blockone {
-  width: 80%;
-  background-color: grey;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #F5F8FA;
   border: 2px solid black;
   padding: 30px;
-  margin: auto;
+  text-align: center;
+}
+
+.img-col {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.powerfull-alone h2{
+  font-size: 25px;
+  color: #33475B;
+}
+.powerfull-alone p {
+  font-size: 13px;
+  color: #33475B;
+  margin-top: 20px;
 }
 
 .blocktwo {
