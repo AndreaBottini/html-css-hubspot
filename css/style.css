@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 
-.header-nav-left a {
+.header-nav-left {
   text-decoration: none;
   margin-left: 80px;
   line-height: 80px;
@@ -40,12 +40,17 @@ body {
 
 a:link {
   color: #33475B;
+  text-decoration: none;
 }
 
 .header-nav-bottom {
   height: 80px;
-  background-color: blue;
+  background-color: white;
   width: 100%;
+}
+
+.immagine {
+line-height: center;
 }
 
 .end-header-banner {
