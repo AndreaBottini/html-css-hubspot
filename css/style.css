@@ -19,8 +19,8 @@ body {
 .header-nav-top {
   height: 80px;
   background-color: lightgrey;
-  /*width: 100%;*/
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header-nav-left a {
@@ -28,6 +28,11 @@ body {
   margin-left: 80px;
   line-height: 80px;
   vertical-align: middle;
+  font-size: 15px;
+}
+
+a:link {
+  color: #33475B;
 }
 
 .header-nav-bottom {
@@ -45,6 +50,12 @@ body {
 
 .header-nav-left {
   float: left;
+}
+
+.header-nav-left i{
+  margin-right: 10px;
+  margin-left: 4px;
+  color: #33475B;
 }
 
 .header-nav-right {
