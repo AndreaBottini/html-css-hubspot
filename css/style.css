@@ -9,6 +9,7 @@ body {
   background-color: lightblue;
 }
 
+/*Regole Header*/
 .page-header {
   height: 700px;
   /*width: 90%;*/
@@ -45,6 +46,10 @@ a:link {
   color: #33475B;
   text-decoration: none;
 }
+a:visited {
+  color: #33475B;
+  text-decoration: none;
+}
 
 .header-nav-bottom {
   height: 80px;
@@ -66,11 +71,28 @@ margin-top: 25px;
   color: #33475B;
 }
 
+.title-box {
+  margin-left: 200px;
+  width:33%;
+  height: 400px;
+  /*border: 2px solid grey;*/
+  font-size: 25px;
+  margin-top: 50px;
+  line-height: 50px;
+  color: #33475B;
+}
+
+.title-box p {
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 35px;
+}
+
 .end-header-banner {
   height: 100px;
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
-  background-color: #03BAA2;
+  background-color: #AFEBE4;
   /*width: 90%;*/
   margin: 0 auto;
 }
@@ -116,11 +138,32 @@ margin-top: 25px;
   padding: 10px;
   font-size: 13px;
 }
+
+.button-box {
+  background-color: #FF8F73;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 10px;
+  color: white;
+  border: 2px solid #FF8F73;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.free-tools {
+  font-size: 11px;
+  color: #33475B;
+  margin-top: 20px;
+}
+
 .header-nav::after {
   content: '';
   display: table;
   clear: both;
 }
+/*Regole Header*/
 
 .page-main {
   height: 1200px;
