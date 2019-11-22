@@ -31,6 +31,13 @@ body {
   font-size: 15px;
 }
 
+.header-nav-right {
+  text-decoration: none;
+  margin-right: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
 a:link {
   color: #33475B;
 }
@@ -62,6 +69,33 @@ a:link {
   float: right;
 }
 
+.header-nav-right i {
+  margin-right: 20px;
+  color: #33475B;
+}
+
+.button-right {
+  display: inline-block;
+  line-height: 10px;
+  color: #FF8F73;
+  border: 2px solid #FF8F73;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+.button-right-two {
+  background-color: #FF8F73;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 10px;
+  color: white;
+  border: 2px solid #FF8F73;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 13px;
+}
 .header-nav::after {
   content: '';
   display: table;
