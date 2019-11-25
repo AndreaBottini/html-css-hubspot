@@ -643,15 +643,51 @@ margin-top: 25px;
 
 .page-footer {
   height: 400px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   background-color: green;
 }
 
-.footer-ref {
-  width: 80%;
+.footer-ref-with-float {
+  width: 70%;
   background-color: lightgreen;
   border: 2px solid black;
   padding: 30px;
   margin: auto;
+  color: white;
+}
+
+.footer-ref {
+  float: left;
+}
+
+.footer-list-one {
+  height: 100px;
+  width: 25%;
+  background-color: lightblue;
+  border: 2px solid grey;
+}
+
+.footer-list-two {
+  height: 100px;
+  width: 25%;
+  background-color: lightblue;
+}
+
+.footer-list-three {
+  height: 100px;
+  width: 25%;
+  background-color: lightblue;
+}
+
+.footer-list-four {
+  height: 100px;
+  width: 25%;
+  background-color: lightblue;
+}
+
+.list-item li {
+  list-style: none;
+  font-size: 13px;
+  margin-top: 20px;
 }
