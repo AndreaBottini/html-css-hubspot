@@ -167,10 +167,16 @@ margin-top: 25px;
 
 /*Regole Main*/
 .page-main {
-  height: 2000px;
+  /*height: 1500px;*/
   width: 90%;
   margin: 0 auto;
   background-color: #F5F8FA;
+}
+
+.page-main-second {
+  height: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .blockone {
@@ -381,8 +387,8 @@ margin-top: 25px;
 
 .learn-grow-box-title {
   /*height:300px;*/
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .learn-grow-box-title h2 {
