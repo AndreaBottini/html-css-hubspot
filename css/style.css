@@ -559,10 +559,48 @@ margin-top: 25px;
 }
 
 .blockfour {
+  float: left;
+}
+
+.blockfour-with-float::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.lastbox-one {
+  height: 80px;
+  width: 50%;
   background-color: blue;
   border: 2px solid black;
   padding: 30px;
-  margin: auto;
+  text-align: center;
+}
+
+.lastbox-two {
+  height: 80px;
+  width: 50%;
+  background-color: blue;
+  border: 2px solid black;
+  padding: 30px;
+  text-align: center;
+}
+
+.lastbox-three {
+  height: 80px;
+  width: 20%;
+  background-color: blue;
+  border: 2px solid black;
+  padding: 30px;
+  text-align: center;
+}
+
+.lastbox-four {
+  height: 80px;
+  width: 20%;
+  background-color: blue;
+  border: 2px solid black;
+  padding: 30px;
   text-align: center;
 }
 
