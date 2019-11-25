@@ -642,7 +642,7 @@ margin-top: 25px;
 /*Regole Main*/
 
 .page-footer {
-  height: 400px;
+  height: 600px;
   width: 100%;
   margin: 0 auto;
   background-color: green;
@@ -650,8 +650,6 @@ margin-top: 25px;
 
 .footer-ref-with-float {
   width: 70%;
-  background-color: lightgreen;
-  border: 2px solid black;
   padding: 30px;
   margin: auto;
   color: white;
@@ -664,30 +662,64 @@ margin-top: 25px;
 .footer-list-one {
   height: 100px;
   width: 25%;
-  background-color: lightblue;
-  border: 2px solid grey;
 }
 
 .footer-list-two {
   height: 100px;
   width: 25%;
-  background-color: lightblue;
 }
 
 .footer-list-three {
   height: 100px;
   width: 25%;
-  background-color: lightblue;
 }
 
 .footer-list-four {
   height: 100px;
   width: 25%;
-  background-color: lightblue;
+}
+
+.footer-list-five {
+  height: 100px;
+  width: 90%;
+  margin-top: 5px;
+}
+
+.footer-list-six {
+  width: 100%;
+  margin-top: 250px;
+  margin-right: 300px;
+  text-align: center;
 }
 
 .list-item li {
   list-style: none;
   font-size: 13px;
   margin-top: 20px;
+}
+
+.list-social li {
+  list-style: none;
+  display: inline;
+  padding: 8px;
+}
+
+.button-contact {
+  background-color: #EDEFF0;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+  line-height: 8px;
+  color: #87919D;
+  border: 2px solid #EDEFF0;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.list-language li {
+  list-style: none;
+  display: inline;
+  padding: 8px;
 }
