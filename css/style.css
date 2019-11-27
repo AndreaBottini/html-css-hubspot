@@ -641,6 +641,7 @@ margin-top: 25px;
 }
 /*Regole Main*/
 
+/*Regole Footer*/
 .page-footer {
   height: 600px;
   width: 100%;
@@ -723,3 +724,29 @@ margin-top: 25px;
   display: inline;
   padding: 8px;
 }
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #87919D;
+}
+
+.legal {
+  text-align: right;
+  margin-top: 0;
+}
+
+.legal ul {
+  list-style: none;
+}
+
+.legal li {
+  display: inline;
+  padding: 20px;
+  color: #87919D;
+}
+/*Regole Footer*/
